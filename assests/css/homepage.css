@@ -1,0 +1,46 @@
+body{
+    background-color: pink;
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+a{
+    text-decoration: none;
+}
+h1{
+    margin-bottom: 50px;
+}
+.signout{
+
+    margin-bottom: 100px;
+}
+
+
+.img1{
+    width: 300px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.img2{
+    width: 300px;
+    height: 150px;
+}
+
+.sign{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 90px;
+    text-transform: uppercase;
+
+}
+
+.sign a:link , 
+.sign a:visited{
+    padding: 10px;
+    box-shadow: 0  0 20px rgba(0, 0, 0 ,0.25);
+    
+}

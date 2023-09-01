@@ -1,0 +1,54 @@
+body{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+form{
+    margin: auto;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 20px;
+    /* align-items: center; */
+}
+
+input{
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    font-size: 18px;
+    background-color: none;
+    background: none;
+}
+.btn{
+    margin: auto;
+    width: 25vw;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #087f5b;
+    color: white;
+    text-transform: uppercase;
+}
+
+.auth-google{
+    display: inline-block;
+   
+    width: 23.5vw;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: #087f5b;
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+
+}

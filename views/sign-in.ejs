@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="/css/signin.css">
+</head>
+<body>
+    <h1> Sign In</h1>
+    <form action="/user/create-session" method="post">
+    
+        <input type="email" name="email" placeholder="Enter Your EMAIL...">
+        <input type="password" name="password" placeholder="Enter Your PASSWORD...">
+        <button class="btn" type="submit">Submit</button>
+        
+    </form>
+    <a href="/user/auth/google" class="auth-google">sign in with google</a>
+</body>
+</html>
